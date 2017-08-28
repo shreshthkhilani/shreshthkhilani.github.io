@@ -1,0 +1,101 @@
+html, body {
+	min-height: 100%;
+	height:100%;
+	width: 100%;
+	font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+	font-size: 11pt;
+	line-height: 16pt;
+	margin-bottom: 16pt;
+	margin-top: 0pt;
+	display: block;
+	clear: both;
+}
+
+.postlink, .postlink:hover, .postlink:visited, .postlink:active {
+	color: #ff4c38;
+}
+
+#shreshth, #shreshth:hover, #shreshth:visited, #shreshth:active {
+	color: #000;
+	text-decoration: none;
+}
+
+#header {
+	background-color: #fff;
+	border-top: 6px solid #ff4c38;
+	color: #000;
+}
+
+#footer {
+	margin-top: 12pt;
+	width: 100%;
+}
+
+#footerp {
+	font-size: 9pt;
+	line-height: 12pt;
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+}
+
+#mainbody {
+	width: 100%;
+	min-height: 75%;
+}
+
+.postimage, .postimageright {
+	display: inline-block;
+	max-width: 70%;
+  margin-bottom: 16pt;
+  max-height: 500px;
+}
+
+.postcaption, .postcaptionright {
+	display: inline-block;
+	max-width: 21%;
+	margin-left: 3%;
+	margin-right: 3%;
+	font-size: 9pt;
+	line-height: 12pt;
+	margin-top: 12pt;
+	color: #777777;
+}
+
+.postimage, .postcaption {
+	float: left;
+	margin-left: 3%;
+}
+
+.postimageright, .postcaptionright {
+	float: right;
+	margin-right: 3%;
+	text-align: right;
+}
+
+#sidebarhead {
+	text-align: center;
+}
+
+#sidebar {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#sidebarslot {
+	position: fixed;
+}
+
+.subscribeBtn {
+	background-color: #ff4c38;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	height: 34px;
+}
