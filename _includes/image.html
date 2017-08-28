@@ -1,2 +1,7 @@
-<img src="{{ include.url }}" alt="{{ include.caption }}" class="postimage">
+{% if include.site == 'y' %}
+	<img src="{{ site.url }}{{ site.baseurl }}{{ include.url }}" alt="{{ include.caption }}" class="postimage">
+{% else %}
+	<img src="{{ include.url }}" alt="{{ include.caption }}" class="postimage">
+{% endif %}
+
 <div class="postcaption">{{ include.caption }}</div>
