@@ -59,7 +59,7 @@ p {
 
 .postcaption, .postcaptionright {
 	display: inline-block;
-	max-width: 21%;
+	/*max-width: 21%;*/
 	margin-left: 3%;
 	margin-right: 3%;
 	font-size: 9pt;
