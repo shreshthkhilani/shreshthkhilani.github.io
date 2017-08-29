@@ -99,3 +99,7 @@ p {
 	border-radius: 4px;
 	height: 34px;
 }
+
+#backtotop:hover {
+	font-size: 136%;
+}
