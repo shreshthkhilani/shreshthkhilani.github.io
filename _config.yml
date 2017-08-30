@@ -4,7 +4,7 @@ description: >
   This is Shreshth's theatre portfolio; 
   I like to believe that I'm a theatre artist and a web developer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shreshthkhilani.com"
+url: "http://shreshthkhilani.com"
 twitter_username: shreshthkhilani
 github_username:  shreshthkhilani
 
