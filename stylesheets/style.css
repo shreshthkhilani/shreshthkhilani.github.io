@@ -103,3 +103,19 @@ p {
 #backtotop:hover {
 	font-size: 136%;
 }
+
+.artistStatementP {
+	display: inline-block;
+}
+
+.right1 {
+	padding-left: 7.2em;
+}
+
+.right2 {
+	padding-left: 0;
+}
+
+.right3 {
+	padding-left: 0;
+}
