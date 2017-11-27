@@ -22,6 +22,10 @@ p {
 	color: #ff4c38;
 }
 
+.activepostlink, .activepostlink:hover, .activepostlink:visited, .activepostlink:active {
+	color: #333 !important;
+}
+
 #shreshth, #shreshth:hover, #shreshth:visited, #shreshth:active {
 	color: #000;
 	text-decoration: none;
@@ -100,22 +104,14 @@ p {
 	height: 34px;
 }
 
-#backtotop:hover {
+#start:hover, #backtotop:hover {
 	font-size: 136%;
 }
 
-.artistStatementP {
-	display: inline-block;
+.artistStatement {
+	min-height: 100%;
 }
 
-.right1 {
-	padding-left: 7.2em;
-}
-
-.right2 {
-	padding-left: 0;
-}
-
-.right3 {
-	padding-left: 0;
+a > span {
+	cursor: pointer;
 }
