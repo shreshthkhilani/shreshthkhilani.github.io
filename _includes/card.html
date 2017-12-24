@@ -4,15 +4,21 @@
         - postUrl
         - postImg
         - postTitle
-        - postDescription
+        - postPosition
+        - postYear
 -->
 
 <link rel="stylesheet" href="/css/card.css">
 
-<div class="postcard boxshadow">
-    <a href="{{ include.postUrl }}"><img class="cardImg" src="{{ include.postImg }}"></a>
-    <div class="cardText">
-        <h3 class="cardH"><a href="{{ include.postUrl }}" class="postLink">{{ include.postTitle }}</a></h3>
-        <p class="cardP">{{ post.description }}</p>
+<a href="{{ include.postUrl }}" class="postLink">
+    <div class="postcardwrapper">
+        <div class="postcard">
+            <img class="cardImg" src="{{ include.postImg }}">
+        </div>
+        <div class="overpostcard" align="center">
+            <br>
+            <h3 class="cardH">{{ include.postTitle }}</h3>
+            <p>{{ include.postPosition }}&nbsp;&nbsp;({{ include.postYear }})</p>
+        </div>
     </div>
-</div>
+</a>
