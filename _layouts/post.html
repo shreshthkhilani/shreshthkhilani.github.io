@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="/css/post.css">
+<link rel="stylesheet" href="/css/card.css">
+<div class="container">
+    <br>
+    <p><a href="/projects"><span aria-hidden="true">&lt;</span> Back to Projects</a></p>
+    <div align="center">
+        <h2>{{ page.title }}</h2>
+    </div>
+    <img src="{% if page.img %}{{ page.img }}{% endif %}" id="postimg">
+    <div class="row">
+        <div class="col-sm-10 offset-sm-1">
+            <div id="posttxt">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    <p><a href="/projects"><span aria-hidden="true">&lt;</span> Back to Projects</a></p>
+</div>

@@ -18,6 +18,12 @@ p {
 	clear: both;
 }
 
+#content {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
 .postlink, .postlink:hover, .postlink:visited, .postlink:active {
 	color: #ff4c38;
 }
@@ -27,22 +33,100 @@ p {
 }
 
 #shreshth, #shreshth:hover, #shreshth:visited, #shreshth:active {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 }
 
 #header {
-	background-color: #fff;
+	background-color: #333;
 	border-top: 6px solid #ff4c38;
-	color: #000;
-}
-
-#footer {
-	margin-top: 12pt;
+	color: #fff;
+	padding-top: 32px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
 	width: 100%;
 }
 
+#nav {
+	padding-top: 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.navItem, .navItem:visited, .navItem:active {
+	color: #777;
+	text-decoration: none;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+#navbar > h1 {
+	margin-right: 32px !important;
+}
+
+#navbar > h5 {
+	margin-top: 18px;
+}
+
+.navItemActive, .navItem:hover {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+#footer {
+	padding-top: 16px;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 16px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #333;
+}
+
+.footerImg {
+	width: 24px;
+	height: 24px;
+	margin-left: 4px;
+	margin-right: 8px;
+	margin-top: -14px;
+	margin-bottom: 2px;
+}
+
+.footerImg:hover {
+	width: 28px;
+	height: 28px;
+	margin-left: 2px;
+	margin-right: 6px;
+	margin-top: -12px;
+	margin-bottom: 0;
+}
+
+.imgColorInvert {
+	-webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+.footerLeftItem {
+	display: inline-block;
+}
+
+#footerLeftItemP {
+	margin-left: 16px;
+}
+
 #footerp {
+	color: #fff;
 	font-size: 9pt;
 	line-height: 12pt;
 	margin-top: 12pt;
@@ -51,7 +135,8 @@ p {
 
 #mainbody {
 	width: 100%;
-	min-height: 75%;
+	margin-top: 112px;
+	flex: 1;
 }
 
 .postimage, .postimageright {
@@ -97,11 +182,19 @@ p {
 }
 
 .subscribeBtn {
-	background-color: #ff4c38;
+	background-color: #333;
 	color: #fff;
-	border: none;
+	border: 1px solid #fff;
 	border-radius: 4px;
 	height: 34px;
+	cursor: pointer;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.subscribeBtn:hover {
+	background-color: #fff;
+	color: #333;
 }
 
 #start:hover, #backtotop:hover {
@@ -114,4 +207,38 @@ p {
 
 a > span {
 	cursor: pointer;
+}
+
+.carousel-item {
+	background-color: #333;
+	max-height: 600px !important;
+}
+
+.carouselImg {
+	width: 100% !important;
+}
+
+.boxshadow {
+	box-shadow: 0 1.6em 0 -1em #777777;
+}
+
+.siteImg {
+	width: 100%;
+}
+
+.flexRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 100%;
+	padding-bottom: 32px;
+	padding-top: 16px;
+}
+
+.flexItem {
+	width: 50%;
+	padding-right: 2%;
+	padding-left: 2%;
 }

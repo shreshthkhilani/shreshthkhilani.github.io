@@ -1,0 +1,18 @@
+<!--
+    This component generates a card with post details.
+    Arguments:
+        - postUrl
+        - postImg
+        - postTitle
+        - postDescription
+-->
+
+<link rel="stylesheet" href="/css/card.css">
+
+<div class="postcard boxshadow">
+    <a href="{{ include.postUrl }}"><img class="cardImg" src="{{ include.postImg }}"></a>
+    <div class="cardText">
+        <h3 class="cardH"><a href="{{ include.postUrl }}" class="postLink">{{ include.postTitle }}</a></h3>
+        <p class="cardP">{{ post.description }}</p>
+    </div>
+</div>
