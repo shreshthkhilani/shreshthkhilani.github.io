@@ -1,36 +1,46 @@
 <head>
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111653231-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        gtag('config', 'UA-111653231-1');
+    </script>
 
-	<!-- Style -->
-	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/style.css">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-	<!-- jQuery for Bootstrap -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	
-	<script src="{{ site.baseurl }}/js/sidebar.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.png"> 
+    <!-- Style -->
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/style.css">
 
+    <!-- jQuery for Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    
+    <script src="{{ site.baseurl }}/js/sidebar.js"></script>
 
-	<meta property="og:title" content="Shreshth Khilani">
-	<meta property="og:site_name" content="Shreshth Khilani">
-	<meta property="og:url" content="http://shreshthkhilani.com">
-	<meta property="og:image" content="http://shreshthkhilani.com/images/bench-li.JPG">
-	<meta property="og:type" content="article">
-	<meta property="og:description" content="This is my theatre portfolio; I like to believe that I'm a theatre artist and a web developer.">
-	<meta property="fb:app_id" content="352160068538353"/>
-	<meta property="fb:admins" content="shreshth.khilani"/>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.png"> 
 
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta property="og:title" content="Shreshth Khilani">
+    <meta property="og:site_name" content="Shreshth Khilani">
+    <meta property="og:url" content="http://shreshthkhilani.com">
+    <meta property="og:image" content="http://shreshthkhilani.com/images/bench-li.JPG">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="This is my theatre portfolio; I like to believe that I'm a theatre artist and a web developer.">
+    <meta property="fb:app_id" content="352160068538353"/>
+    <meta property="fb:admins" content="shreshth.khilani"/>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
