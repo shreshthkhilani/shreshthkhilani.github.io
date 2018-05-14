@@ -1,5 +1,6 @@
 ---
 layout: post
+category: project
 title: "Mahabharata"
 date: 2016-07-01
 img: "/images/mahabharata/cover.png"

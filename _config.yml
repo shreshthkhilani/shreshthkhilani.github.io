@@ -11,7 +11,7 @@ github_username:  shreshthkhilani
 # Build settings
 markdown: kramdown
 
-permalink: /:title
+permalink: /:categories/:title
 
 plugins:
   - jekyll-redirect-from

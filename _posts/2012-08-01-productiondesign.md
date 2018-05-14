@@ -1,5 +1,6 @@
 ---
 layout: post
+category: project
 title: "Production Design at Paper Faces"
 date: 2012-08-01
 img: "/images/productiondesign/cover.png"

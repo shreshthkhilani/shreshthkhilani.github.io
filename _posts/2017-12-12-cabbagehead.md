@@ -1,5 +1,6 @@
 ---
 layout: post
+category: project
 title: "Cabbage Head"
 date: 2017-12-12
 img: "/images/cabbagehead/cover.png"

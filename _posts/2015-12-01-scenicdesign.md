@@ -1,5 +1,6 @@
 ---
 layout: post
+category: project
 title: "Scenic Design at Penn"
 date: 2015-12-01
 img: "/images/scenicdesign/cover.jpg"

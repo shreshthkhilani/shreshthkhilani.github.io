@@ -1,0 +1,33 @@
+---
+layout: default
+title: "Reviews"
+---
+<div class="container" id="projects">
+	<br>
+	<h2>Reviews</h2>
+    <p>
+        Theatre reviews in Philadelphia are often flattering and mostly white. As a person of color, I’ve read reviews by white authors that fail to flag issues about a show that I’d like to know before I watch the show and that fail to make me feel like my concerns about a show are legitimate after watching a show. 
+        <br><br>
+        Any commitment to bring equity in hiring and the representation of different voices in an artistic community must go hand-in-hand with the representation of voices of color in the artistic criticism of that community. This is a small attempt to add one more PoC voice to Philadelphia’s art criticism. 
+        <br><br>
+        Of course, while serving as an outlet for the above, I must acknowledge that this is also an attempt to formalize my own personal criticism practice, and hopefully will also serve as the same for other PoC in the city. 
+    </p>
+</div>
+<link rel="stylesheet" href="/css/card.css">
+<div class="container">
+    <div class="row">
+        {% for post in site.categories.review %}
+        <div class="col-sm-6">
+            {% include card.html
+                postUrl=post.url
+                postTitle=post.title
+                postImg=post.img
+                postDescription=post.description
+                postProduction=post.production
+                postDate=post.date
+            %}
+        </div>
+        {% endfor %}
+    </div>
+    <br>
+</div>

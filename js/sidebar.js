@@ -67,5 +67,7 @@ $(document).ready(function() {
         $('#aboutNavItem').addClass('navItemActive');
     } else if (window.location.pathname === '/projects/') {
         $('#projectsNavItem').addClass('navItemActive');
+    } else if (window.location.pathname === '/reviews/') {
+        $('#reviewsNavItem').addClass('navItemActive');
     }
 });

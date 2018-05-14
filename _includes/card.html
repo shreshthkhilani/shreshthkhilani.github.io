@@ -18,7 +18,13 @@
         <div class="overpostcard" align="center">
             <br>
             <h3 class="cardH">{{ include.postTitle }}</h3>
-            <p>{{ include.postPosition }}&nbsp;&nbsp;({{ include.postYear }})</p>
+            {% if include.postPosition %}
+                <p>{{ include.postPosition }}&nbsp;&nbsp;({{ include.postYear }})</p>
+            {% endif %}
+            {% if include.postProduction %}
+                <p>{{ include.postProduction }}</p>
+                <p>{{ include.postDate | date: "%B %-d, %Y" }}</p>
+            {% endif %}
         </div>
     </div>
 </a>

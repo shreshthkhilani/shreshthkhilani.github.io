@@ -1,5 +1,6 @@
 ---
 layout: post
+category: project
 title: "Passion Fruit Dances"
 date: 2017-12-10
 img: "/images/passionfruitdances/cover.png"
